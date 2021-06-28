@@ -33,7 +33,7 @@
     <header>
         <div class="container">
             <!-- MENU BUTTON-->
-            <h1>MasterBike</h1>
+            <a href="../index.html"><h1>MasterBike</h1></a>
             <!--
                 <img class="img-menu" src="images/logos/logoblanco1.png">
                 -->
