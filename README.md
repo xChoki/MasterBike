@@ -1,3 +1,5 @@
 # MasterBike
 
-la página esta de masterbike para ing. de sofware xd
+La página de masterbike para ing. de sofware xd
+
+Link de descarga wampserver64 (WINDOWS): https://www.wampserver.com/en/download-wampserver-64bits/#download-wrapper

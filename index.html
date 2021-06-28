@@ -20,8 +20,13 @@
     <link rel="stylesheet" href="./css/menu-style.css">
     <link rel="stylesheet" href="./css/banner.css">
     <link rel="stylesheet" href="./css/blog.css">
-    <link rel="stylesheet" href="./css/info.css">}
+    <link rel="stylesheet" href="./css/info.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./js/index.js"></script>
 
     <link rel="shortcut icon" href="images/logos/icono1.png">
 </head>
@@ -32,7 +37,9 @@
     <header>
         <div class="container">
             <!-- MENU BUTTON-->
-            <h1 class="">MasterBike</h1>
+            <a href="index.html">
+                <h1 class="">MasterBike</h1>
+            </a>
             <!--
                 <img class="img-menu" src="images/logos/logoblanco1.png">
                 -->
@@ -42,13 +49,16 @@
             <!-- MENU -->
             <nav class="menu">
                 <a href="#"><button type="button" class="btn float-right">Contacto</button></a>
-                <a href="registrar.html"><button type="button" class="btn btn-secondary float-right">Registrarse</button></a>
-                <a href="iniciar-sesion.html"><button type="button" class="btn btn-primary float-right">Iniciar sesion</button></a>
+                <a href="registrar.html"><button type="button"
+                        class="btn btn-secondary float-right">Registrarse</button></a>
+                <a href="iniciar-sesion.html"><button type="button" class="btn btn-primary float-right">Iniciar
+                        sesion</button></a>
             </nav>
         </div>
     </header>
 
     <main>
+
         <!-- Banner -->
         <section id="banner">
             <img src="./images/banner.jpg" alt="banner">
@@ -57,13 +67,18 @@
             </div>
         </section>
 
+        <div class="cookie-banner" style="display: none">
+            <p>Usando nuestro sitio, aceptas nuestras <a href="#">políticas de cookies</a></p>
+            <button class="close">&times;</button>
+        </div>
+
         <!-- Section blog -->
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <!-- Blog post-->
                     <div class="card mb-4">
-                        <a href="tienda.html">
+                        <a href="php/tienda.php">
                             <img class="card-img-top" src="images/bici2.jpg" alt="Card image cap" />
                             <div class="card-body text-dark bg-light rounded-3">
                                 <h2 class="card-title text-center">Tienda</h2>
@@ -78,7 +93,7 @@
                 <div class="col-md-4">
                     <!-- Blog post-->
                     <div class="card mb-4">
-                        <a href="tienda.html">
+                        <a href="tienda.php">
                             <img class="card-img-top" src="images/bici2.jpg" alt="Card image cap" />
                             <div class="card-body text-dark bg-light rounded-3">
                                 <h2 class="card-title text-center">Tienda</h2>

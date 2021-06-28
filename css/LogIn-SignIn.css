@@ -1,18 +1,5 @@
 body {
-    animation: 15000ms ease-in-out infinite color-change;
     padding-top: 50px;
-}
-
-@keyframes color-change {
-    0% {
-        background-color: teal;
-    }
-    50% {
-        background-color: green;
-    }
-    100% {
-        background-color: teal;
-    }
 }
 
 footer{

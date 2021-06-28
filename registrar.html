@@ -8,9 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Archivos externos -->
-    <link rel="stylesheet" href="CSS/estilo.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/estilo-menu.css" />
     <link rel="stylesheet" href="CSS/LogIn-SignIn.css" />
+    <link rel="stylesheet" href="./css/fontello.css">
     <link rel='stylesheet' type='text/css' media='screen' href='CSS/bootstrap.css'>
 
     <!-- CDN de bootstrap-->
@@ -21,7 +22,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!--icono sobre el titulo de la pagina-->
-    <link rel="shortcut icon" href="../images/logos/icono1.png">
+    <link rel="shortcut icon" href="">
 
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
@@ -80,7 +81,7 @@
             });
         });
     </script>
-    <title>Le Vegane</title>
+    <title>Registrarse - MasterBike</title>
 </head>
 
 <body class="body1">
@@ -91,12 +92,13 @@
                 <div class="col-md-8 col-xs-12 col-lg-4">
                     <!-- FORM-->
                     <div class="card mb-4">
-                        <a href="index.html"><img class="card-img-top img-card-form" src="images/logos/blancologo.png"
-                                width="10%" height="10%" alt="logo" /></a>
+                        <a href="index.html">
+                            <h1 class="text-center">MasterBike</h1>
+                        </a>
                         <div class="card-body text-dark bg-light rounded-3">
                             <h2 class="card-title text-center">Registrarse</h2>
 
-                            <form id="formulario" name="formulario" action="recibe.php" method="POST"
+                            <form id="formulario" name="formulario" action="./php/registro.php" method="POST"
                                 enctype="multipart/form-data">
                                 <!-- CORREO -->
                                 <div class="form-floating mb-3">
@@ -121,19 +123,9 @@
 
                                 <!-- PASSWORD -->
                                 <div class="form-floating mb-3">
-                                    <input type="password" class="form-control" id="password" name="password"
+                                    <input type="password" class="form-control" id="contrasena" name="contrasena"
                                         placeholder="Abcd@" />
-                                    <label for="password">Contraseña *</label>
-                                </div>
-
-                                <!-- Género -->
-                                <div class="mb-3">
-                                    <select name="genero" id="gen" class="select-text form-select">
-                                        <option value="def" selected>--Seleccione género *--</option>
-                                        <option value="mas">Masculino</option>
-                                        <option value="fem">Femenino</option>
-                                        <option value="NA">Prefiero no responder</option>
-                                    </select>
+                                    <label for="contrasena">Contraseña *</label>
                                 </div>
 
                                 <input type="submit" class="btn btn-primary col-12" id="enviar" name="enviar"
@@ -153,38 +145,13 @@
 
     <!-- ****************************************************************************** -->
     <!-- Footer-->
-    <footer class="py-5 bg-dark">
+    <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item">
-                            <a href="#!">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#!">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#!">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="m-0 text-center text-white">Copyright &copy; Le Vegane 2021</p>
-                </div>
+            <p class="copy"> MasterBike &copy; 2021 </p>
+            <div class="socials">
+                <a class="icon-facebook" href="#"></a>
+                <a class="icon-twitter" href="#"></a>
+                <a class="icon-instagram" href="#"></a>
             </div>
         </div>
     </footer>
