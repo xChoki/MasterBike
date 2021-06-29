@@ -43,8 +43,8 @@
             <!-- MENU -->
             <nav class="menu">
                 <a href="#"><button type="button" class="btn float-right">Contacto</button></a>
-                <a href="registrar.html"><button type="button" class="btn btn-secondary float-right">Registrarse</button></a>
-                <a href="iniciar-sesion.html"><button type="button" class="btn btn-primary float-right">Iniciar sesion</button></a>
+                <a href="../registrar.html"><button type="button" class="btn btn-secondary float-right">Registrarse</button></a>
+                <a href="../iniciar-sesion.html"><button type="button" class="btn btn-primary float-right">Iniciar sesion</button></a>
             </nav>
         </div>
     </header>
